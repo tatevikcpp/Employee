@@ -18,5 +18,4 @@ int main()
 	cout << "Name Engineer is: " << (e->Name()) << endl;
 	e->Education();
 
-	system("pause");
 }
