@@ -5,7 +5,7 @@ using namespace std;
 
 int main()
 {
-	Employee *m = new Manager(20, 1010, "Anun");
+	Employee *m = new Manager(30, 1010, "Name");
 	cout << "Id Mannager is: " << (m->Id()) << endl;
 	cout << "Age Mannager is: " << (m->Age()) << endl;
 	cout << "Name Manager is: " << (m->Name()) << endl;
