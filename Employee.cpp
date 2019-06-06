@@ -1,12 +1,11 @@
 #include "Employee.h"
 #include <iostream>
 #include <string>
-using namespace std;
 
 Employee::Employee(){}
 void Employee::Education()
 {
-	cout << "Manager / Engineer have university education" << endl;
+     std::cout << "Manager / Engineer have university education" << endl;
 }
 
 int Manager::Id() { return id; }
